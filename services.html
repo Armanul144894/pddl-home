@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>UpConstruction Bootstrap Template - Services</title>
+    <title>PDDL Matrix - Services</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -40,63 +40,92 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: UpConstruction
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header d-flex align-items-center">
+    <section id="topbar" class="topbar d-flex align-items-center">
       <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+        class="container d-flex justify-content-center justify-content-md-between"
       >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"
+            ><a href="mailto:contact@example.com">info@pddl.org</a></i
+          >
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <i class="bi bi-phone d-flex align-items-center ms-4"
+            ><span>+8801711065614</span></i
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End Top Bar -->
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1>UpConstruction<span>.</span></h1>
+          <img src="assets/img/PDDL-Logo.png" class="" alt="" />
         </a>
 
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar text-uppercase fw-bold ms-lg-5">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html" class="active">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <!-- <li><a href="about.html">About Us</a></li> -->
             <li class="dropdown">
-              <a href="#"
-                ><span>Dropdown</span>
+              <a href="about.html"
+                ><span>About Us</span>
                 <i class="bi bi-chevron-down dropdown-indicator"></i
               ></a>
               <ul>
-                <li><a href="#">Dropdown 1</a></li>
+                <li><a href="#">Our History</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Message From MD</a></li>
                 <li class="dropdown">
                   <a href="#"
-                    ><span>Deep Dropdown</span>
+                    ><span>Our Companies</span>
                     <i class="bi bi-chevron-down dropdown-indicator"></i
                   ></a>
                   <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
+                    <li><a href="#">PDDL Matrix </a></li>
+                    <li><a href="#">Matrix Construction </a></li>
+                    <li><a href="#">Training Center </a></li>
                   </ul>
                 </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+
+            <li class="dropdown">
+              <a href="services.html"
+                ><span>Our Services</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="service-details.html">Consultancy</a></li>
+                <li><a href="#">Construction </a></li>
+                <li><a href="#">MEP Solution </a></li>
+                <li><a href="#">Real Estate & Development </a></li>
+                <li><a href="#">Interior Design </a></li>
+                <li><a href="#">Skill Development Training </a></li>
+                <li><a href="#">PDDL Treading </a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="activities.html"
+                ><span>Media Room</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="activities.html">Recent Activities</a></li>
+                <li><a href="projects.html">Photo Gallery </a></li>
+                <li><a href="#">Video Gallery </a></li>
+              </ul>
+            </li>
+
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </nav>
         <!-- .navbar -->
@@ -126,6 +155,14 @@
       <!-- ======= Services Section ======= -->
       <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Services</h2>
+            <p>
+              Voluptatem quibusdam ut ullam perferendis repellat non ut
+              consequuntur est eveniet deleniti fignissimos eos quam
+            </p>
+          </div>
+
           <div class="row gy-4">
             <div
               class="col-lg-4 col-md-6"
@@ -136,7 +173,7 @@
                 <div class="icon">
                   <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3>Nesciunt Mete</h3>
+                <h3>Consultancy</h3>
                 <p>
                   Provident nihil minus qui consequatur non omnis maiores. Eos
                   accusantium minus dolores iure perferendis tempore et
@@ -158,7 +195,7 @@
                 <div class="icon">
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
-                <h3>Eosle Commodi</h3>
+                <h3>Construction</h3>
                 <p>
                   Ut autem aut autem non a. Sint sint sit facilis nam iusto
                   sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
@@ -179,7 +216,7 @@
                 <div class="icon">
                   <i class="fa-solid fa-compass-drafting"></i>
                 </div>
-                <h3>Ledo Markt</h3>
+                <h3>MEP Solution</h3>
                 <p>
                   Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
                   Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
@@ -200,7 +237,7 @@
                 <div class="icon">
                   <i class="fa-solid fa-trowel-bricks"></i>
                 </div>
-                <h3>Asperiores Commodit</h3>
+                <h3>Real Estate & Development</h3>
                 <p>
                   Non et temporibus minus omnis sed dolor esse consequatur.
                   Cupiditate sed error ea fuga sit provident adipisci neque.
@@ -221,7 +258,7 @@
                 <div class="icon">
                   <i class="fa-solid fa-helmet-safety"></i>
                 </div>
-                <h3>Velit Doloremque</h3>
+                <h3>Interior Design</h3>
                 <p>
                   Cumque et suscipit saepe. Est maiores autem enim facilis ut
                   aut ipsam corporis aut. Sed animi at autem alias eius labore.
@@ -242,7 +279,28 @@
                 <div class="icon">
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
-                <h3>Dolori Architecto</h3>
+                <h3>Skill Development Training</h3>
+                <p>
+                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
+                  neque non et debitis iure. Corrupti recusandae ducimus enim.
+                </p>
+                <a href="service-details.html" class="readmore stretched-link"
+                  >Learn more <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 mx-auto"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                </div>
+                <h3>PDDL Trading</h3>
                 <p>
                   Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
                   neque non et debitis iure. Corrupti recusandae ducimus enim.
@@ -267,23 +325,35 @@
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <h3>Quasi eaque omnis</h3>
+              <h3>PDDL Architectural Design in Bangladesh</h3>
               <p>
-                Eius non minus autem soluta ut ui labore omnis quisquam corrupti
-                autem odit voluptas quos commodi magnam occaecati.
+                A concept that mostly focuses on the components or elements that
+                need to be used in a structure known as Architectural design. We
+                are PIONEER DESIGN & DEVELOPMENT LTD , we do Architectural
+                design in Bangladesh.  Generally an architect is the one who
+                refers as a in charge of a specific architectural design.
               </p>
               <ul class="list-unstyled">
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Ullamco laboris nisi ut aliquip</span>
+                  <span
+                    >A professional architectural design in Bangladesh should
+                    involve in carrying out an analysis.
+                  </span>
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Duis aute irure dolor in reprehenderit</span>
+                  <span
+                    >Before designing and building the structure we consider the
+                    needs of our client and available resources.
+                  </span>
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Ullamco laboris nisi ut aliquip ex ea</span>
+                  <span
+                    >We follow the basic or main rules of construction
+                    thoroughly.
+                  </span>
                 </li>
               </ul>
             </div>
@@ -294,25 +364,29 @@
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <h3>Et nemo dolores consectetur</h3>
+              <h3>PDDL Electrical Design firm in Bangladesh</h3>
               <p>
-                Ducimus ea quam et occaecati est. Temporibus in soluta labore
-                voluptates aut. Et sit soluta non repellat sed quia dire plovers
-                tradoria
+                Electrical design is an important process that involves in
+                planning and creating electrical equipment for an
+                infrastructure. As an Electrical Design firm in Bangladesh, we
+                are PIONEER DESIGN & CONSTRUCTION LTD expert on electrical
+                design.
               </p>
 
               <ul class="list-unstyled">
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Enim temporibus maiores eligendi</span>
+                  <span
+                    >Wiring the building with cables, switches, sockets.
+                  </span>
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Ut maxime ut quibusdam quam qui</span>
+                  <span>Conducting the light setting in a system.</span>
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Officiis aspernatur in officiis</span>
+                  <span>We review the ear thing system of the building. </span>
                 </li>
               </ul>
             </div>
@@ -323,24 +397,28 @@
               data-aos="zoom-in"
               data-aos-delay="300"
             >
-              <h3>Staque laboriosam modi</h3>
+              <h3>PDDL Structural Design in Bangladesh</h3>
               <p>
-                Velit eos error et dolor omnis voluptates nobis tenetur sed enim
-                nihil vero qui suscipit ipsum at magni. Ipsa architecto
-                consequatur aliquam
+                An engineer who carries a line of responsibilities associated
+                with designing or constructing physical structure is known as a
+                structural designer. The engineers build the establishment in a
+                way so that the external pressures from the environment and
+                others can be resisted easily.
               </p>
               <ul class="list-unstyled">
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Quis voluptates laboriosam numquam</span>
+                  <span
+                    >Our engineers preparing a proper building design.
+                  </span>
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Treva libero sunt quis veniam ut</span>
+                  <span>Building structures need to be supervised. </span>
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Debitis eos est est corrupti</span>
+                  <span>We have skilled project managers advised by PDDL.</span>
                 </li>
               </ul>
             </div>
@@ -351,24 +429,35 @@
               data-aos="zoom-in"
               data-aos-delay="400"
             >
-              <h3>Dignissimos suscipit iste</h3>
+              <h3>Interior design firm in Bangladesh</h3>
               <p>
-                Molestiae occaecati assumenda quia saepe nobis recusandae at
-                dicta ducimus sequi numquam commodi est in consequatur ea magnam
-                quia itaque
+                Pioneer Design & Development Ltd (PDDL) is an interior design
+                firm in Bangladesh works on consulting or assisting the clients
+                for decorating their interior. We have professionals who may
+                help in giving direction to the clients to furnish and decorate
+                the homes, offices, or businesses
               </p>
               <ul class="list-unstyled">
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Veritatis qui reprehenderit quis</span>
+                  <span
+                    >Discussing variety of design ideas with our valuable
+                    clients and trying to meet with their expectations.</span
+                  >
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Accusantium vel numquam sunt minus</span>
+                  <span
+                    >Creating models and drawings according to clients’
+                    expectation and ask for clients’ approval. </span
+                  >
                 </li>
                 <li>
                   <i class="bi bi-check2"></i>
-                  <span>Voluptatem pariatur est sationem</span>
+                  <span
+                    >Adjusting the furniture as well as the accessories that
+                    will eventually increase the rooms’ appeal. </span
+                  >
                 </li>
               </ul>
             </div>
@@ -379,7 +468,7 @@
       <!-- End Servie Cards Section -->
 
       <!-- ======= Alt Services Section 2 ======= -->
-      <section id="alt-services-2" class="alt-services section-bg">
+      <!-- <section id="alt-services-2" class="alt-services section-bg">
         <div class="container" data-aos="fade-up">
           <div class="row justify-content-around gy-4">
             <div class="col-lg-5 d-flex flex-column justify-content-center">
@@ -406,7 +495,7 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+         
 
               <div
                 class="icon-box d-flex position-relative"
@@ -422,7 +511,7 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+             
 
               <div
                 class="icon-box d-flex position-relative"
@@ -438,7 +527,7 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+             
 
               <div
                 class="icon-box d-flex position-relative"
@@ -454,7 +543,7 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+             
             </div>
 
             <div
@@ -465,11 +554,11 @@
             ></div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Alt Services Section 2 -->
 
       <!-- ======= Alt Services Section ======= -->
-      <section id="alt-services" class="alt-services">
+      <!-- <section id="alt-services" class="alt-services">
         <div class="container" data-aos="fade-up">
           <div class="row justify-content-around gy-4">
             <div
@@ -501,7 +590,7 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+             
 
               <div
                 class="icon-box d-flex position-relative"
@@ -517,7 +606,7 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+             
 
               <div
                 class="icon-box d-flex position-relative"
@@ -533,7 +622,7 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+             
 
               <div
                 class="icon-box d-flex position-relative"
@@ -549,15 +638,15 @@
                   </p>
                 </div>
               </div>
-              <!-- End Icon Box -->
+             
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Alt Services Section -->
 
       <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+      <!-- <section id="testimonials" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Testimonials</h2>
@@ -597,7 +686,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -627,7 +716,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -656,7 +745,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -686,7 +775,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -716,12 +805,12 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Testimonials Section -->
     </main>
     <!-- End #main -->
@@ -733,35 +822,12 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="footer-info">
-                <h3>UpConstruction</h3>
+                <h3>PDDL Matrix</h3>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA<br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
+                  House#10(2ND FLOOR), Main Road, Mohammadi Housing Limited
+                  <br />
+                  Mohammadpur,  Dhaka-1207<br /><br />
                 </p>
-                <div class="social-links d-flex mt-3">
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-twitter"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-facebook"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-instagram"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-linkedin"></i
-                  ></a>
-                </div>
               </div>
             </div>
             <!-- End footer info column-->
@@ -772,8 +838,9 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Terms of service</a></li>
-                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Recent Avtivities</a></li>
+                <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
             <!-- End footer links column-->
@@ -781,36 +848,44 @@
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Our Services</h4>
               <ul>
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Product Management</a></li>
-                <li><a href="#">Marketing</a></li>
-                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Consultancy </a></li>
+                <li><a href="#">Construction </a></li>
+                <li><a href="#">MEP Solution </a></li>
+                <li><a href="#">Real Estate & Development </a></li>
+                <li><a href="#">Interior Design</a></li>
+                <li><a href="#">Skill Development Training</a></li>
               </ul>
             </div>
             <!-- End footer links column-->
 
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Hic solutasetp</h4>
+            <div class="col-lg-4 col-md-3 footer-links">
+              <h4>Contact Us</h4>
               <ul>
-                <li><a href="#">Molestiae accusamus iure</a></li>
-                <li><a href="#">Excepturi dignissimos</a></li>
-                <li><a href="#">Suscipit distinctio</a></li>
-                <li><a href="#">Dilecta</a></li>
-                <li><a href="#">Sit quas consectetur</a></li>
+                <li><strong>Phone:</strong> +8801711065614<br /></li>
+                <li><strong>Email:</strong>info@pddl.org <br /></li>
               </ul>
-            </div>
-            <!-- End footer links column-->
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Nobis illum</h4>
-              <ul>
-                <li><a href="#">Ipsam</a></li>
-                <li><a href="#">Laudantium dolorum</a></li>
-                <li><a href="#">Dinera</a></li>
-                <li><a href="#">Trodelas</a></li>
-                <li><a href="#">Flexo</a></li>
-              </ul>
+              <div class="social-links d-flex mt-3">
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
             </div>
             <!-- End footer links column-->
           </div>
@@ -820,15 +895,8 @@
       <div class="footer-legal text-center position-relative">
         <div class="container">
           <div class="copyright">
-            &copy; Copyright <strong><span>UpConstruction</span></strong
+            &copy; Copyright <strong><span>PDDL Matrix</span></strong
             >. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </div>

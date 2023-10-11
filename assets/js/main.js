@@ -11,6 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+   /**
+   * Sticky header on scroll
+   */
+   const selectHeader = document.querySelector('#header');
+   if (selectHeader) {
+     document.addEventListener('scroll', () => {
+       window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
+     });
+   }
+
   /**
    * Mobile nav toggle
    */
@@ -157,6 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
   new Swiper(".slides-1", {
     speed: 600,
     loop: true,
+    spaceBetween: 30,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
@@ -184,10 +195,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const increment = Math.trunc(target / speed);
 
       if (count < target) {
-        counter.innerText = count + increment + '+';
+        counter.innerText = count + increment + "+";
         setTimeout(updateCount, 1);
       } else {
-        counter.innerText = target + '+';
+        counter.innerText = target + "+";
       }
     };
     updateCount();
@@ -199,6 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
   new Swiper(".slides-2", {
     speed: 600,
     loop: true,
+    spaceBetween: 20,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
@@ -247,16 +259,47 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: "5",
-  spaceBetween: 30,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false
-  },
- 
+  slidesPerView: 1,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  }
+    prevEl: ".swiper-button-prev",
+  },
+  
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Get references to the hidden content and the "Read More" link
+    const hiddenContent = document.querySelector('.hidden-content');
+    const readMoreLink = document.querySelector('.read-more');
+
+    // Add a click event listener to the "Read More" link
+    readMoreLink.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default link behavior
+
+        // Toggle the display of the hidden content
+        if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'block';
+            readMoreLink.textContent = 'Read Less';
+        } else {
+            hiddenContent.style.display = 'none';
+            readMoreLink.textContent = 'Read More';
+        }
+    });
 });

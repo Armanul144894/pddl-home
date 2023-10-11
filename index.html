@@ -50,73 +50,88 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header d-flex align-items-center">
+    <section id="topbar" class="topbar d-flex align-items-center">
       <div
-        class="container-fluid mx-5 d-flex align-items-center justify-content-between"
+        class="container d-flex justify-content-center justify-content-md-between"
       >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"
+            ><a href="mailto:contact@example.com">info@pddl.org</a></i
+          >
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <i class="bi bi-phone d-flex align-items-center ms-4"
+            ><span>+8801711065614</span></i
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End Top Bar -->
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <h1>PDDL Matrix<span>.</span></h1>
+          <img src="assets/img/PDDL-Logo.png" class="" alt="" />
         </a>
 
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar text-uppercase fw-bold ms-lg-5">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="about.html">About Us</a></li> -->
             <li class="dropdown">
-              <a href="#"
-                ><span>Dropdown</span>
+              <a href="about.html"
+                ><span>About Us</span>
                 <i class="bi bi-chevron-down dropdown-indicator"></i
               ></a>
               <ul>
-                <li><a href="#">Dropdown 1</a></li>
+                <li><a href="#">Our History</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Message From MD</a></li>
                 <li class="dropdown">
                   <a href="#"
-                    ><span>Deep Dropdown</span>
+                    ><span>Our Companies</span>
                     <i class="bi bi-chevron-down dropdown-indicator"></i
                   ></a>
                   <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
+                    <li><a href="#">PDDL Matrix </a></li>
+                    <li><a href="#">Matrix Construction </a></li>
+                    <li><a href="#">Training Center </a></li>
                   </ul>
                 </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <!-- .navbar -->
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li>
-              <a href="tel:084 234 56 789" class="">
-                Call us:
-                <span class="text-warning ms-2">084 234 56 789</span></a
-              >
+            <li class="dropdown">
+              <a href="services.html"
+                ><span>Our Services</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="service-details.html">Consultancy</a></li>
+                <li><a href="#">Construction </a></li>
+                <li><a href="#">MEP Solution </a></li>
+                <li><a href="#">Real Estate & Development </a></li>
+                <li><a href="#">Interior Design </a></li>
+                <li><a href="#">Skill Development Training </a></li>
+                <li><a href="#">PDDL Treading </a></li>
+              </ul>
             </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <li class="dropdown">
+              <a href="services.html"
+                ><span>Media Room</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="activities.html">Recent Activities</a></li>
+                <li><a href="projects.html">Photo Gallery </a></li>
+                <li><a href="#">Video Gallery </a></li>
+              </ul>
             </li>
-            <li>
-              <a href="#"><i class="fa-regular fa-user"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-bars"></i></a>
-            </li>
+
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </nav>
         <!-- .navbar -->
@@ -218,8 +233,208 @@
     <main id="main">
       <!-- ======= Get Started Section ======= -->
 
+      <!-- =======About Section ======= -->
+      <section id="alt-services" class="alt-services">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="col-lg-6 img-bg"
+              style="background-image: url(assets/img/alt-services.jpg)"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            ></div>
+
+            <div class="col-lg-5 d-flex flex-column justify-content-center">
+              <h3>About Us</h3>
+              <p>
+                Pioneer Design & Development Limited (PDDL) has established at
+                November 2013.At first its name was Pioneer Design &
+                Development. Its initial work was only Engineering Consultancy.
+                But now construction and Real Estate is also it’s running
+                project. Actually, PDDL works on consultancy and Real Estate,
+                and Matrix Construction for construction work. Matrix
+                Construction has completed new construction and retrofitting
+                works especially in RMG sector. At present PDDL is a complete
+                company for a total solution.
+              </p>
+
+              <div class="hidden-content">
+                <div
+                  class="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <i class="bi bi-easel flex-shrink-0"></i>
+                  <div>
+                    <h4><a href="" class="stretched-link">Mission</a></h4>
+                    <p>
+                      Our mission is to provide our customers with value through
+                      the provisioning of engineering services, construction,
+                      and management of infrastructure and industrial projects.
+                      We consider the empowerment of our human resources to be
+                      fundamental in building a permanent knowledge base. We are
+                      committed to our employee’s' safety and the development of
+                      the countries.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div
+                  class="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4><a href="" class="stretched-link">Vision</a></h4>
+                    <p>
+                      To be recognized as the leading Engineering and
+                      Construction company in our county by providing
+                      value-added Engineering and Construction services and is
+                      committed to meeting and surpassing customer expectations
+                      and requirements with them gaining our trust through
+                      exceptional performance by every member of our Engineering
+                      and construction team building long-lasting relationships.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div
+                  class="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-brightness-high flex-shrink-0"></i>
+                  <div>
+                    <h4><a href="" class="stretched-link">Our Profile</a></h4>
+                    <ul>
+                      <li>
+                        Commitment to the safety of people, environmental care,
+                        and community development.
+                      </li>
+                      <li>
+                        Local Roots and Respect for cultural diversity in the
+                        Context of a business overview.
+                      </li>
+                      <li>Human resources development and knowledge build.</li>
+                      <li>Management transparency and professionalism.</li>
+                      <li>Emphasis on processes and predictability.</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+              </div>
+              <a href="#" class="read-more">Read More </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Alt Services Section -->
+
       <!-- ======= Constructions Section ======= -->
-      <section id="constructions" class="constructions mt-5">
+      <section id="constructions" class="constructions">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>WHY CHOICE PIONEER</h2>
+            <p>
+              Pionner aspires to weave an unprecedented experience of fine
+              living cocooned in comfort for you. It’s the statement of prestige
+              and elegant Architecture that sets us apart.
+            </p>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card-item">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div
+                      class="card-bg"
+                      style="
+                        background-image: url(assets/img/choose/p1.png);
+                        background-size: cover;
+                      "
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Card Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="card-item">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div
+                      class="card-bg"
+                      style="background-image: url(assets/img/choose/p2.png)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Card Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-item">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div
+                      class="card-bg"
+                      style="background-image: url(assets/img/choose/p3.png)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Card Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="card-item">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div
+                      class="card-bg p-2"
+                      style="background-image: url(assets/img/choose/p4.png)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Card Item -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="card-item">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div
+                      class="card-bg p-2"
+                      style="background-image: url(assets/img/choose/p5.png)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Card Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="card-item">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div
+                      class="card-bg p-2"
+                      style="background-image: url(assets/img/choose/p6.png)"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Card Item -->
+          </div>
+        </div>
+      </section>
+      <!-- <section id="constructions" class="constructions mt-5">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Sister Concern</h2>
@@ -253,7 +468,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Card Item -->
+           
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
               <div class="card-item">
@@ -280,7 +495,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Card Item -->
+            
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
               <div class="card-item">
@@ -307,7 +522,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Card Item -->
+            
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div class="card-item">
@@ -334,17 +549,17 @@
                 </div>
               </div>
             </div>
-            <!-- End Card Item -->
+           
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Constructions Section -->
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h2>Services</h2>
+            <h2>Our Services</h2>
             <p>
               Voluptatem quibusdam ut ullam perferendis repellat non ut
               consequuntur est eveniet deleniti fignissimos eos quam
@@ -478,198 +693,168 @@
               </div>
             </div>
             <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6 mx-auto"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                </div>
+                <h3>PDDL Trading</h3>
+                <p>
+                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
+                  neque non et debitis iure. Corrupti recusandae ducimus enim.
+                </p>
+                <a href="service-details.html" class="readmore stretched-link"
+                  >Learn more <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
           </div>
         </div>
       </section>
       <!-- End Services Section -->
 
-      <!-- Counter Section Start -->
-      <section>
+      <!-- ======= Stats Counter Section ======= -->
+      <section id="stats-counter" class="stats-counter section-bg">
         <div class="container">
-          <div class="row">
-            <div class="four col-md-3">
-              <div class="counter">
-                <h3 data-target="25" class="count"></h3>
-                <p class="text-center">Interior Design</p>
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="232"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Happy Clients</p>
+                </div>
               </div>
             </div>
-            <div class="four col-md-3">
-              <div class="counter">
-                <h3 data-target="93" class="count">0</h3>
-                <p class="text-center">Architechture</p>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i
+                  class="bi bi-journal-richtext color-orange flex-shrink-0"
+                ></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="521"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Projects</p>
+                </div>
               </div>
             </div>
-            <div class="four col-md-3">
-              <div class="counter">
-                <h3 data-target="48" class="count">0</h3>
-                <p class="text-center">Construction</p>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-headset color-green flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="1463"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Hours Of Support</p>
+                </div>
               </div>
             </div>
-            <div class="four col-md-3">
-              <div class="counter">
-                <h3 data-target="68" class="count">0</h3>
-                <p class="text-center">Projects Done</p>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-people color-pink flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="15"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Hard Workers</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Stats Counter Section -->
+
+      <!-- Client Section -->
+      <section class="client-container">
+        <div
+          class=""
+          style="background-image: url('assets/img/h10-background01.jpg')"
+        >
+          <div class="px-5 py-5" style="background-color: rgba(0, 0, 0, 0.548)">
+            <div class="section-header">
+              <h2 class="text-white">Our Clients</h2>
+            </div>
+            <div class="slider-container">
+              <div
+                style="
+                  --swiper-navigation-color: #fff;
+                  --swiper-pagination-color: #fff;
+                "
+                class="swiper mySwiper"
+              >
+                <div class="swiper-wrapper d-flex align-items-center">
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/img/logo/Logo-03.jpg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/img/logo/Logo-02.jpg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/img/logo/Logo-01.jpg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/img/logo/Logo-03.jpg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/img/logo/Logo-02.jpg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/img/logo/Logo-01.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Counter Section End -->
-
-      <!-- Slider Container -->
-      <section class="">
-        <div class="slider-container">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- Slider Section End -->
-
-      <section>
-        <div class="card bg-dark text-white">
-          <div class="background-img">
-            <img src="assets/img/h10-background01.jpg" alt="..." />
-          </div>
-
-          <div
-            class="card-img-overlay text-center d-flex align-items-center justify-content-center"
-          >
-            <div>
-              <h4 class="card-text">HELPING TO TURN A HOUSE INTO A HOME.</h4>
-              <h1 class="card-title">Your design experts.</h1>
-              <p class="card-text">Last updated 3 mins ago</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ======= Alt Services Section ======= -->
-      <section id="alt-services" class="alt-services">
-        <div class="container" data-aos="fade-up">
-          <div class="row justify-content-around gy-4">
-            <div
-              class="col-lg-6 img-bg"
-              style="background-image: url(assets/img/alt-services.jpg)"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            ></div>
-
-            <div class="col-lg-5 d-flex flex-column justify-content-center">
-              <h3>About Us</h3>
-              <p>
-                Pioneer Design & Development Limited started its journey in
-                2013. At first, it was Pioneer Design & Development. Engineering
-                Consultancy was the starting work of this company. The
-                Construction and then Real Estate business. To build up a
-                well-organized company, a new company was started in 2016 for
-                construction work named “Matrix Construction”. Now Pioneer
-                Design & Development Limited doing Engineering Consultancy &
-                Real Estate and Matrix Construction is doing Construction &
-                Retrofitting works.
-              </p>
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <i class="bi bi-easel flex-shrink-0"></i>
-                <div>
-                  <h4><a href="" class="stretched-link">Mission</a></h4>
-                  <p>
-                    Our mission is to provide our customers with value through
-                    the provisioning of engineering services, construction, and
-                    management of infrastructure and industrial projects. We
-                    consider the empowerment of our human resources to be
-                    fundamental in building a permanent knowledge base. We are
-                    committed to our employee’s' safety and the development of
-                    the countries.
-                  </p>
-                </div>
-              </div>
-              <!-- End Icon Box -->
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <i class="bi bi-patch-check flex-shrink-0"></i>
-                <div>
-                  <h4><a href="" class="stretched-link">Vision</a></h4>
-                  <p>
-                    To be recognized as the leading Engineering and Construction
-                    company in our county by providing value-added Engineering
-                    and Construction services and is committed to meeting and
-                    surpassing customer expectations and requirements with them
-                    gaining our trust through exceptional performance by every
-                    member of our Engineering and construction team building
-                    long-lasting relationships.
-                  </p>
-                </div>
-              </div>
-              <!-- End Icon Box -->
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <i class="bi bi-brightness-high flex-shrink-0"></i>
-                <div>
-                  <h4><a href="" class="stretched-link">Values</a></h4>
-                  <ul>
-                    <li>
-                      Commitment to the safety of people, environmental care,
-                      and community development.
-                    </li>
-                    <li>
-                      Local Roots and Respect for cultural diversity in the
-                      Context of a business overview.
-                    </li>
-                    <li>Human resources development and knowledge build.</li>
-                    <li>Management transparency and professionalism.</li>
-                    <li>Emphasis on processes and predictability.</li>
-                  </ul>
-                </div>
-              </div>
-              <!-- End Icon Box -->
-
-              <div
-                class="icon-box d-flex position-relative"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <i class="bi bi-brightness-high flex-shrink-0"></i>
-                <div>
-                  <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                  <p>
-                    Est voluptatem labore deleniti quis a delectus et. Saepe
-                    dolorem libero sit non aspernatur odit amet. Et eligendi
-                  </p>
-                </div>
-              </div>
-              <!-- End Icon Box -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Alt Services Section -->
+      <!-- Client Section End -->
 
       <!-- ======= Features Section ======= -->
-      <section id="features" class="features section-bg">
+      <!-- <section id="features" class="features section-bg">
         <div class="container" data-aos="fade-up">
           <ul class="nav nav-tabs row g-2 d-flex">
             <li class="nav-item col-3">
@@ -681,12 +866,12 @@
                 <h4>Modisit</h4>
               </a>
             </li>
-            <!-- End tab nav item -->
+            
 
             <li class="nav-item col-3">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
                 <h4>Praesenti</h4> </a
-              ><!-- End tab nav item -->
+              >
             </li>
 
             <li class="nav-item col-3">
@@ -694,14 +879,14 @@
                 <h4>Explica</h4>
               </a>
             </li>
-            <!-- End tab nav item -->
+            
 
             <li class="nav-item col-3">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
                 <h4>Nostrum</h4>
               </a>
             </li>
-            <!-- End tab nav item -->
+            
           </ul>
 
           <div class="tab-content">
@@ -748,7 +933,7 @@
                 </div>
               </div>
             </div>
-            <!-- End tab content item -->
+            
 
             <div class="tab-pane" id="tab-2">
               <div class="row">
@@ -792,7 +977,7 @@
                 </div>
               </div>
             </div>
-            <!-- End tab content item -->
+            
 
             <div class="tab-pane" id="tab-3">
               <div class="row">
@@ -830,7 +1015,7 @@
                 </div>
               </div>
             </div>
-            <!-- End tab content item -->
+            
 
             <div class="tab-pane" id="tab-4">
               <div class="row">
@@ -869,14 +1054,14 @@
                 </div>
               </div>
             </div>
-            <!-- End tab content item -->
+            
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Features Section -->
 
       <!-- ======= Our Projects Section ======= -->
-      <section id="projects" class="projects">
+      <!-- <section id="projects" class="projects">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Our Projects</h2>
@@ -904,7 +1089,6 @@
               <li data-filter=".filter-repairs">Repairs</li>
               <li data-filter=".filter-design">Design</li>
             </ul>
-            <!-- End Projects Filters -->
 
             <div
               class="row gy-4 portfolio-container"
@@ -937,7 +1121,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                 <div class="portfolio-content h-100">
@@ -965,7 +1148,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
@@ -993,7 +1175,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                 <div class="portfolio-content h-100">
@@ -1021,7 +1202,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
                 <div class="portfolio-content h-100">
@@ -1049,7 +1229,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                 <div class="portfolio-content h-100">
@@ -1077,7 +1256,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
@@ -1105,7 +1283,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                 <div class="portfolio-content h-100">
@@ -1133,7 +1310,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
                 <div class="portfolio-content h-100">
@@ -1161,7 +1337,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                 <div class="portfolio-content h-100">
@@ -1189,7 +1364,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
@@ -1217,7 +1391,6 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                 <div class="portfolio-content h-100">
@@ -1245,16 +1418,14 @@
                   </div>
                 </div>
               </div>
-              <!-- End Projects Item -->
             </div>
-            <!-- End Projects Container -->
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Our Projects Section -->
 
       <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+      <!-- <section id="testimonials" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Testimonials</h2>
@@ -1294,7 +1465,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -1324,7 +1495,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -1353,7 +1524,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -1383,7 +1554,7 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+              
 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
@@ -1413,16 +1584,16 @@
                   </div>
                 </div>
               </div>
-              <!-- End testimonial item -->
+             
             </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Testimonials Section -->
 
       <!-- ======= Recent Blog Posts Section ======= -->
-      <section id="recent-blog-posts" class="recent-blog-posts">
+      <!-- <section id="recent-blog-posts" class="recent-blog-posts">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Recent Blog Posts</h2>
@@ -1473,7 +1644,7 @@
                 </div>
               </div>
             </div>
-            <!-- End post item -->
+           
 
             <div
               class="col-xl-4 col-md-6"
@@ -1515,7 +1686,7 @@
                 </div>
               </div>
             </div>
-            <!-- End post item -->
+            
 
             <div class="col-xl-4 col-md-6">
               <div
@@ -1557,10 +1728,10 @@
                 </div>
               </div>
             </div>
-            <!-- End post item -->
+            
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Recent Blog Posts Section -->
     </main>
     <!-- End #main -->
@@ -1572,35 +1743,12 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="footer-info">
-                <h3>PDDL Marix</h3>
+                <h3>PDDL Matrix</h3>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA<br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
+                  House#10(2ND FLOOR), Main Road, Mohammadi Housing Limited
+                  <br />
+                  Mohammadpur,  Dhaka-1207<br /><br />
                 </p>
-                <div class="social-links d-flex mt-3">
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-twitter"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-facebook"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-instagram"></i
-                  ></a>
-                  <a
-                    href="#"
-                    class="d-flex align-items-center justify-content-center"
-                    ><i class="bi bi-linkedin"></i
-                  ></a>
-                </div>
               </div>
             </div>
             <!-- End footer info column-->
@@ -1611,8 +1759,9 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Terms of service</a></li>
-                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Recent Avtivities</a></li>
+                <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
             <!-- End footer links column-->
@@ -1620,36 +1769,44 @@
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Our Services</h4>
               <ul>
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Product Management</a></li>
-                <li><a href="#">Marketing</a></li>
-                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Consultancy </a></li>
+                <li><a href="#">Construction </a></li>
+                <li><a href="#">MEP Solution </a></li>
+                <li><a href="#">Real Estate & Development </a></li>
+                <li><a href="#">Interior Design</a></li>
+                <li><a href="#">Skill Development Training</a></li>
               </ul>
             </div>
             <!-- End footer links column-->
 
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Hic solutasetp</h4>
+            <div class="col-lg-4 col-md-3 footer-links">
+              <h4>Contact Us</h4>
               <ul>
-                <li><a href="#">Molestiae accusamus iure</a></li>
-                <li><a href="#">Excepturi dignissimos</a></li>
-                <li><a href="#">Suscipit distinctio</a></li>
-                <li><a href="#">Dilecta</a></li>
-                <li><a href="#">Sit quas consectetur</a></li>
+                <li><strong>Phone:</strong> +8801711065614<br /></li>
+                <li><strong>Email:</strong> info@pddl.org <br /></li>
               </ul>
-            </div>
-            <!-- End footer links column-->
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Nobis illum</h4>
-              <ul>
-                <li><a href="#">Ipsam</a></li>
-                <li><a href="#">Laudantium dolorum</a></li>
-                <li><a href="#">Dinera</a></li>
-                <li><a href="#">Trodelas</a></li>
-                <li><a href="#">Flexo</a></li>
-              </ul>
+              <div class="social-links d-flex mt-3">
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
             </div>
             <!-- End footer links column-->
           </div>
@@ -1661,13 +1818,6 @@
           <div class="copyright">
             &copy; Copyright <strong><span>PDDL Matrix</span></strong
             >. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </div>
@@ -1690,6 +1840,9 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
