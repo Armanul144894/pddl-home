@@ -267,39 +267,40 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   
   breakpoints: {
     640: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 4,
       spaceBetween: 40,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 5,
       spaceBetween: 50,
     },
   },
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Get references to the hidden content and the "Read More" link
-    const hiddenContent = document.querySelector('.hidden-content');
-    const readMoreLink = document.querySelector('.read-more');
+// document.addEventListener('DOMContentLoaded', function () {
+    
+//     const hiddenContent = document.querySelector('.hidden-content');
+//     const readMoreLink = document.querySelector('.read-more');
 
-    // Add a click event listener to the "Read More" link
-    readMoreLink.addEventListener('click', function (event) {
-        event.preventDefault(); // Prevent the default link behavior
-
-        // Toggle the display of the hidden content
-        if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'block';
-            readMoreLink.textContent = 'Read Less';
-        } else {
-            hiddenContent.style.display = 'none';
-            readMoreLink.textContent = 'Read More';
-        }
-    });
-});
+//     readMoreLink.addEventListener('click', function (event) {
+//         event.preventDefault(); 
+//         if (hiddenContent.style.display === 'none') {
+//             hiddenContent.style.display = 'block';
+//             readMoreLink.textContent = 'Read Less';
+//         } else {
+//             hiddenContent.style.display = 'none';
+//             readMoreLink.textContent = 'Read More';
+//         }
+//     });
+// });
